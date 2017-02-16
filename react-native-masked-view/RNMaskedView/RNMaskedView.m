@@ -4,7 +4,7 @@
 //
 
 #import "RNMaskedView.h"
-#import "RCTConvert.h"
+#import "React/RCTConvert.h"
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
@@ -20,6 +20,8 @@
     mask.contents = (id)[_maskUIImage CGImage];
     mask.frame = self.bounds; //TODO custom: CGRectMake(left, top, width, height);
     self.layer.mask = mask;
+    self.layer.mask.borderWidth = 3;
+    self.layer.mask.borderColor = [UIColor colorWithRed:229/255 green:229/255 blue:229/255 alpha:1].CGColor;
     self.layer.masksToBounds = YES;
 }
 

@@ -3,7 +3,7 @@
 //  RNMaskedView
 //
 
-#import "RCTViewManager.h"
+#import "React/RCTViewManager.h"
 
 @interface RNMaskedViewManager : RCTViewManager
 

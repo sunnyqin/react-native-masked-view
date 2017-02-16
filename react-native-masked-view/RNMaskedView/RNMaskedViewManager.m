@@ -5,11 +5,11 @@
 
 #import "RNMaskedViewManager.h"
 #import "RNMaskedView.h"
-#import "RCTBridge.h"
+#import "React/RCTBridge.h"
 
 #import <UIKit/UIKit.h>
 
-#import <RCTConvert.h>
+#import <React/RCTConvert.h>
 
 @implementation RNMaskedViewManager
 
